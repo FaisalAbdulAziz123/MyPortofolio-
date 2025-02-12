@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-portfolio/', // Pastikan sesuai dengan nama repository GitHub
+  base: 'faisaldev.github.io-MyPortofolio-', // Pastikan sesuai dengan nama repository GitHub
   build: {
     outDir: 'dist', // Direktori output build
     emptyOutDir: true
