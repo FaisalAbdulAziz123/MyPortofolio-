@@ -1,3 +1,4 @@
+/* Animasi saat header muncul */
 header {
   background-color: #2D336B;
   height: 100vh;
@@ -6,6 +7,20 @@ header {
   font-family: "Kanit", sans-serif;
   letter-spacing: 5px;
   text-shadow: 0 0 4px #000;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInHeader 1s ease-out forwards;
+}
+
+@keyframes fadeInHeader {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .header-jumbotron {
@@ -19,13 +34,33 @@ header {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  border-radius: 100%;
 }
+
+/* Animasi untuk gambar profil */
 .header-jumbotron > img {
   width: 150px;
   height: 150px;
   border-radius: 100px;
+  opacity: 1;
+  transform: scale(0.5);
+  animation: bounceIn 1s ease-out 0.5s forwards;
 }
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animasi untuk teks */
 .header-jumbotron > h3 {
   color: #fff;
   margin: 30px 0px 0px 0px;
@@ -33,6 +68,20 @@ header {
   font-size: 3.5rem;
   line-height: 4rem;
   text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInText 1s ease-out 0.8s forwards;
+}
+
+@keyframes slideInText {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header-jumbotron > p {
@@ -40,13 +89,40 @@ header {
   margin: 0px 5px 20px 5px;
   color: #fff;
   font-size: 1.2rem;
+  opacity: 0;
+  animation: fadeInText 1s ease-out 1s forwards;
 }
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animasi untuk ikon media sosial */
 .socialMedia {
   color: #fff;
   display: flex;
   gap: 20px;
+  opacity: 0;
+  animation: fadeInSocial 1s ease-out 1.2s forwards;
 }
 
+@keyframes fadeInSocial {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover efek smooth untuk ikon media sosial */
 .socialMedia > a {
   background-color: #222831;
   color: #fff;
@@ -56,15 +132,20 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+.socialMedia > a:hover {
+  background-color: #aa392d;
+  transform: scale(1.2) rotate(10deg);
+}
+
 .socialMedia > a > svg {
   height: 30px;
   width: auto;
 }
-.socialMedia > a:hover {
-  background-color: #aa392d;
-}
 
+/* Responsif */
 @media only screen and (max-width: 1000px) {
   .socialMedia > a {
     width: 60px;

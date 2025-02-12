@@ -1,13 +1,61 @@
+#detail-portfolio {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInScale 1s ease-out forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 #detail-portfolio > .wrapper {
   width: 60%;
+  margin: auto;
 }
+
 #detail-portfolio > .wrapper > img {
   margin: auto;
   width: 100%;
   border-radius: 10px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInImg 1s ease-out 0.5s forwards;
 }
+
+@keyframes slideInImg {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #detail-portfolio > .wrapper > p.skill {
   text-align: center;
   font-size: 1.5rem;
   color: #222831;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInText 1s ease-out 0.8s forwards;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

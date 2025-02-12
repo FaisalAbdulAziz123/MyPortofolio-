@@ -13,7 +13,6 @@ function About() {
         <section id="about">
             <div className='wrapper'>
                 <h3>About</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, alias.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, saepe velit, blanditiis suscipit odio non architecto ratione magnam cum porro id nesciunt repudiandae optio assumenda ab ducimus. Nesciunt, eligendi ullam!</p>
                 <h4>Programming Language & Tools</h4>
                 <div className="skills">
