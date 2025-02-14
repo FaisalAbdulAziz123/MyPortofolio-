@@ -62,7 +62,7 @@ function Experience() {
                         icon={<FaLaravel />}
                     >
                         <h3 className="vertical-timeline-element-title">Front End Engineer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">dirumahrafif Corporation</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Faisal Corporation</h4>
                         <p>
                             Creative Direction, User Experience, Visual Design, SEO, Online Marketing
                         </p>

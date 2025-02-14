@@ -13,7 +13,7 @@ function About() {
         <section id="about">
             <div className='wrapper'>
                 <h3>About</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, saepe velit, blanditiis suscipit odio non architecto ratione magnam cum porro id nesciunt repudiandae optio assumenda ab ducimus. Nesciunt, eligendi ullam!</p>
+                <p>Halo, saya Faisal, seorang mahasiswa di Universitas Nusa Putra yang sedang mendalami bidang Teknik Informatika. Saya memiliki passion dalam pengembangan perangkat lunak, khususnya dalam pengembangan aplikasi mobile menggunakan React Native, Saat ini, saya sedang mengerjakan beberapa proyek. Selain itu, saya juga tertarik dalam desain web dan pemrograman backend.</p>
                 <h4>Programming Language & Tools</h4>
                 <div className="skills">
                     <FaPhp /><FaHtml5 /><SiJavascript /><FaReact /><MdOutlineCss />

@@ -1,45 +1,34 @@
-import portfolio1 from '../assets/portfolio1.png'
-import portfolio2 from '../assets/portfolio2.png'
-import portfolio3 from '../assets/portfolio3.png'
-import portfolio4 from '../assets/portfolio4.png'
-import portfolio5 from '../assets/portfolio5.png'
-import portfolio6 from '../assets/portfolio6.png'
+import phone1 from '../assets/phone1.png'
+import phone2 from '../assets/phone2.png'
+import phone3 from '../assets/phone3.png'
+import phone4 from '../assets/phone4.png'
+import seblak1 from '../assets/seblak1.png'
+import seblak2 from '../assets/seblak2.png'
+import seblak3 from '../assets/seblak3.png'
+import seblak4 from '../assets/seblak4.png'
+import seblak5 from '../assets/seblak5.png'
+
 
 export const portfolioList = [
     {
-        id: '1',
-        title: 'Website Portfolio #1',
-        image: portfolio1,
-        skill: 'reactjs, html, css, express, php'
+        id: "1",
+        title: "Aplikasi Coffee Shop",
+        image: phone1,
+        skill: "React Native, JavaScript, MySQL",
+        phoneImages: [ phone2, phone3, phone4] // Gambar khusus untuk project ini
     },
     {
-        id: '2',
-        title: 'Website Portfolio #2',
-        image: portfolio2,
-        skill: 'reactjs, html, css, express, php'
+        id: "2",
+        title: "Aplikasi Kuliner Seblak",
+        image: seblak1,
+        skill: "React Native, JavaScript, MySQL",
+        phoneImages: [seblak2, seblak3, seblak4, seblak5] // Gambar berbeda untuk project ini
     },
     {
-        id: '3',
-        title: 'Website Portfolio #3',
-        image: portfolio3,
-        skill: 'reactjs, html, css, express, php'
-    },
-    {
-        id: '4',
-        title: 'Website Portfolio #4',
-        image: portfolio4,
-        skill: 'reactjs, html, css, express, php'
-    },
-    {
-        id: '5',
-        title: 'Website Portfolio #5',
-        image: portfolio5,
-        skill: 'reactjs, html, css, express, php'
-    },
-    {
-        id: '6',
-        title: 'Website Portfolio #6',
-        image: portfolio6,
-        skill: 'reactjs, html, css, express, php, Laravel'
-    },
-]
+        id: "3",
+        title: "Aplikasi Kuliner Seblak",
+        image: seblak1,
+        skill: "React Native, JavaScript, MySQL",
+        phoneImages: [seblak2, seblak3, seblak4, seblak5] // Gambar berbeda untuk project ini
+    }
+];

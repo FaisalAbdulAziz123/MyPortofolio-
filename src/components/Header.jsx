@@ -8,7 +8,7 @@ function Header() {
             <div className="header-jumbotron">
                 <img src={profilePicture} />
                 <h3>FAISAL ABDUL AZIZ</h3>
-                <p>Programmer - Content Creator - Digital Marketing</p>
+                <p>Programmer - Content Creator - Mobile App</p>
                 <div className='socialMedia'>
                     <a href='https://www.instagram.com/isall_ya/'><FaInstagram /></a>
                     <a href='https://www.tiktok.com/@abdul_isall?is_from_webapp=1&sender_device=pc'><FaTiktok /></a>

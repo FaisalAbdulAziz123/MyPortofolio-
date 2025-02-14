@@ -16,17 +16,19 @@
 }
 
 #detail-portfolio > .wrapper {
-  width: 60%;
+  width: 30%;
   margin: auto;
+
 }
 
 #detail-portfolio > .wrapper > img {
   margin: auto;
-  width: 100%;
+  width: 200px;
   border-radius: 10px;
   opacity: 0;
   transform: translateY(30px);
   animation: slideInImg 1s ease-out 0.5s forwards;
+  
 }
 
 @keyframes slideInImg {
@@ -58,4 +60,5 @@
     opacity: 1;
     transform: translateY(0);
   }
+  
 }
